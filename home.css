@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+section
+{
+    background: rgb(1, 24, 1);
+    min-height: 100vh;
+}
+section .bannerVideo
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+section .bannerVideo video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+section .bannerVideo video.active
+{
+    opacity: 1;
+}
+.container 
+{
+    position: relative;
+    padding: 0 100px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    min-height: 100vh;
+}
+.container header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.container header .logo
+{
+    position: relative;
+    left: 420px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+.container .bleft
+{
+    position: relative;
+    right: 120px;
+    text-align: center;
+    display: flex;
+    padding: 20px 0px;
+}
+.container header .bleft li
+{
+    list-style: none;
+    margin: 20px 30px;
+}
+.container .bleft li a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px; 
+    color: #fff;
+    border-radius: 20px; 
+    margin: 0px 30px;
+}
+.container header .bleft li a:hover 
+{
+    background: #fff;
+    color: rgb(0, 0, 0);
+}
+.container header .bright
+{
+    position: relative;
+    right: 0px;
+    text-align: center;
+    display: flex;
+    padding: 20px 0px;
+}
+.container header .bright li
+{
+    list-style: none;
+    margin: 20px 30px;
+}
+.container .bright li a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px; 
+    color: #fff;
+    border-radius: 20px; 
+    margin: 0px 30px;
+}
+.container header .bright li a:hover 
+{
+    background: #fff;
+    color: rgb(0, 0, 0);
+}
+.container .content
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container .content .bannerText
+{
+    position: relative;
+    text-align: center;
+}
+.container .content .bannerText div
+{
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+.container .content .bannerText div.active
+{
+    display: initial;
+}
+.container .content .bannerText div h2
+{
+    color: #fff;
+    font-size: 6em;
+    line-height: 1em;
+    font-weight: 700;
+}
+.container .content .bannerText div p
+{
+    color: #fff;
+    font-size: 15px;
+    margin: 20px 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.controlleft
+{
+    position: absolute;
+    bottom: 265px;
+    left: 0px;
+    display: flex;
+}
+.controlleft li
+{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.247);
+}
+.controlleft li:hover
+{
+    background: transparent;
+}
+.controlright 
+{
+    position: absolute;
+    bottom: 265px;
+    right: 0px;
+    display: flex;
+}
+.controlright li
+{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.247);
+}
+.controlright li:hover
+{
+    background: transparent;
+}
+.menuIcon
+{
+    display: none;
+}
+.cuadrado 
+{
+    position: absolute;
+    right: 0px;
+    width: 1150px;         
+    height: 80px;   
+    bottom: 0px;       
+    background: rgba(255, 255, 255, 0.422);        
+    border: 1px; 
+}
+.redes1
+{
+    position: relative;
+    left: 0px;
+    right: 10px;
+    bottom: 10px;
+    padding: 0px 100px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+.redes1 li
+{
+    list-style: none;
+}
+.redes1 li a 
+{
+    width: 60px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes1 li a:hover
+{
+    background: #fff;
+}
+.redes2
+{
+    position: relative;
+    left: 700px;
+    right: 0px;
+    bottom: 10px;
+    padding: 0px 50px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+.redes2 li
+{
+    list-style: none;
+}
+.redes2 li a 
+{
+    width: 60px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.redes2 li a:hover
+{
+    background: #fff;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="animales.css">
+    <title>Animales 🦋</title>
+</head>
+<body>
+    <header>
+        <a href="home.html" class="logo">Caparazón</a>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="fosiles.html">Fosiles</a></li>
+            <li><a href="animales.html">Animales</a></li>
+            <li><a href="plantas.html">Plantas</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="nube1(naranja).png" id="nube1">
+        <img src="nube2(naranja).png" id="nube2">
+        <h2 id="titulo">Animales</h2>
+        <a href="#sec" id="subtexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet</a>
+        <img src="nube3(naranja).png" id="nube3">
+        <img src="nube4(naranja).png" id="nube4">
+        <img src="nube5(naranja).png" id="nube5">
+    </section>
+    <div class="sec">
+        <img src="fosil.webp" id="imagen1">
+        <h2>¿Qué es un fósil?</h2>
+        <p>Los fósiles son restos orgánicos y petrificados que han dejado animales y plantas hace millones de años y aún perduran hasta nuestros días. Estos restos de organismos de épocas pasadas tienden a conservarse adheridos a rocas sedimentarias.<br><br>Para que se forme un fósil, el organismo debe pasar por un proceso fisicoquímico llamado fosilización. Este proceso petrifica al organismo después de que es enterrado y lo conserva durante mucho tiempo conservado en la corteza terrestre.</p>
+        <br><br>
+        <img src="fosil2.jpg" id="imagen2">
+        <h2>Tipos de Fósiles</h2>
+        <p>Hay dos tipos básicos de fósiles; los fósiles completos y los fósiles traza. Los fósiles completos conservan las partes del cuerpo original de un organismo, como huesos, dientes y conchas. Los fósiles traza son evidencia de las actividades en vida de los organismos antiguos.</p>
+    </div>
+    <div class="cuadrado">
+        <ul class="redes1">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+            <li class="redes2"><a href="aboutus.html">@AboutUs</a></li>
+        </ul>
+    </div>
+
+    <script>
+        let nube1 = document.getElementById('nube1');
+        let nube2 = document.getElementById('nube2');
+        let titulo = document.getElementById('titulo');
+        let subtexto = document.getElementById('subtexto');
+        let nube3 = document.getElementById('nube3');
+        let nube4 = document.getElementById('nube4');
+        let nube5 = document.getElementById('nube5');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            nube1.style.right = value * 0.25 + 'px';
+            nube2.style.left = value * 0.25 + 'px';
+            nube3.style.right = value * 0.25 + 'px';
+            nube4.style.left = value * 0.25 + 'px';
+            nube5.style.borderRight = value * 0.25 + 'px';
+            titulo.style.marginTop = value * 1.5 + 'px';
+            subtexto.style.marginTop = value * 1.5 + 'px';
+            header.style.top 
+        })
+    </script>
+</body>
+</html>

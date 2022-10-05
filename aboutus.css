@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #301e0d;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+    margin: 10px;
+}
+header ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover
+{
+    background: #fff;
+    color: #301e0d;
+}
+header h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #a29384;
+}
+#titulo
+{
+    position: absolute;
+    top: 100px;
+    right: 790px;
+    color: #ffb700;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 1;
+}
+.sec
+{
+    position: relative;
+    top: 60px;
+    padding: 100px;
+    background: #301e0d;
+}
+.sec p
+{
+    position: relative;
+    top: 70px;
+    font-size: 1em;
+    color:  #c2bab1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#imagen1
+{
+    padding: 10px; 
+    margin: 20px; 
+    float: left; 
+    width: 300px;
+}
+.cuadrado 
+{
+    position: absolute;
+    right: 0px;
+    width: 1150px;         
+    height: 80px;   
+    bottom: 0px;       
+    background: rgba(255, 255, 255, 0.422);        
+    border: 1px; 
+}
+.redes1
+{
+    position: relative;
+    left: 0px;
+    right: 10px;
+    bottom: 10px;
+    padding: 0px 100px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+.redes1 li
+{
+    list-style: none;
+}
+.redes1 li a 
+{
+    width: 60px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes1 li a:hover
+{
+    background: #fff;
+}
+.redes2
+{
+    position: relative;
+    left: 700px;
+    right: 0px;
+    bottom: 10px;
+    padding: 0px 50px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+.redes2 li
+{
+    list-style: none;
+}
+.redes2 li a 
+{
+    width: 60px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.redes2 li a:hover
+{
+    background: #fff;
+}
